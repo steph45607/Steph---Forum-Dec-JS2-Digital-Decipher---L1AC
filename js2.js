@@ -16,7 +16,6 @@ function numbers(numArray, key){
             var letter = numArray[i] - keyArr[i];
             letters.push(letter);
         }
-        return letters;
     }
     else{
         var j = 0;
