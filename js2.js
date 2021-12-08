@@ -28,7 +28,6 @@ function numbers(numArray, key){
                     j++;
                 }
             }
-            // Idk how to get the for loop above to this loop below, they dont "connect" ? 
             for(var m = 0; m < res; m++){
                 var letter = numArray[j] - keyArr[m];
                 letters.push(letter);
@@ -46,4 +45,4 @@ function numbers(numArray, key){
     return result;
 };
  
-console.log(numbers([20,12,18,30,21],1939))
+console.log(numbers([6,4,1,3,9,20],100))
